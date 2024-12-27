@@ -4,7 +4,11 @@ import styles from "./output.css";
 export default function Home() {
   return (
     <div className="container">
-      <text>Hi</text>
+      <header>
+        <nav>
+          
+        </nav>
+      </header>
     </div>
   );
 }
