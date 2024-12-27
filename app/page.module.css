@@ -166,3 +166,8 @@ a.secondary {
     filter: invert();
   }
 }
+
+
+@tailwind base;
+@tailwind feComponentTransfe;
+@tailwind utilities;
