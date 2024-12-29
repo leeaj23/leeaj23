@@ -1,6 +1,6 @@
 'use client';
 
-import { AppBar, Container, Toolbar, Box, Button, Link, IconButton, Drawer, MenuItem, Typography } from '@mui/material';
+import { AppBar, Container, Toolbar, Box, Button, Link, IconButton, Drawer, Divider, MenuItem, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
@@ -26,9 +26,9 @@ export default function NavBar() {
         >
             <Container maxWidth='lg'>
                 <Toolbar variant='dense' disableGutters>
-                    <Box sx={{flexGrow: 1, display: 'flex', alignItems: 'center', px: 0}}>
-                        <Typography variant='h4' sx={{color: 'black', mr: 4, textDecoration: 'none'}} gutterBottom component={Link} href='/'>Amy Lee</Typography>
-                        <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+                    <Box sx={{flexGrow: 1, display: 'flex', alignItems: 'center', gap: 2}}>
+                        <Typography variant='h4' sx={{color: 'black', mr: 4, textDecoration: 'none'}} gutterBottom component='a' href='/'>Amy Lee</Typography>
+                        <Box sx={{ display: { xs: 'none', md: 'flex', gap: 5}}}>
                             <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }} href='/'>
                                 About
                             </Button>
@@ -76,6 +76,7 @@ export default function NavBar() {
                         </Drawer>
                     </Box>
                 </Toolbar>
+                <Divider orientation='horizontal'></Divider>
             </Container>
         </AppBar>
     )
