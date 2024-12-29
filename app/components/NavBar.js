@@ -1,6 +1,6 @@
 'use client';
 
-import { AppBar, Container, Toolbar, Box, Button, IconButton, Drawer, MenuItem, Typography } from '@mui/material';
+import { AppBar, Container, Toolbar, Box, Button, Link, IconButton, Drawer, MenuItem, Typography } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import CloseRoundedIcon from '@mui/icons-material/CloseRounded';
 
@@ -27,18 +27,18 @@ export default function NavBar() {
             <Container maxWidth='lg'>
                 <Toolbar variant='dense' disableGutters>
                     <Box sx={{flexGrow: 1, display: 'flex', alignItems: 'center', px: 0}}>
-                        <Typography variant='h4' sx={{color: 'black', mr: 4}} gutterBottom>Amy Lee</Typography>
+                        <Typography variant='h4' sx={{color: 'black', mr: 4, textDecoration: 'none'}} gutterBottom component={Link} href='/'>Amy Lee</Typography>
                         <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
-                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }} href='/'>
                                 About
                             </Button>
-                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }} href='/projects'>
                                 Projects
                             </Button>
-                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }} href='/cv'>
                                 CV
                             </Button>
-                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
+                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }} href='/contact'>
                                 Contact
                             </Button>
                             </Box>
@@ -68,10 +68,10 @@ export default function NavBar() {
                                 <CloseRoundedIcon />
                             </IconButton>
                             </Box>
-                            <MenuItem>About</MenuItem>
-                            <MenuItem>Projects</MenuItem>
-                            <MenuItem>CV</MenuItem>
-                            <MenuItem>Contact</MenuItem>
+                            <MenuItem component={Link} href='/'>About</MenuItem>
+                            <MenuItem component={Link} href='/projects'>Projects</MenuItem>
+                            <MenuItem component={Link} href='/cv'>CV</MenuItem>
+                            <MenuItem component={Link} href='/contact'>Contact</MenuItem>
                         </Box>
                         </Drawer>
                     </Box>
