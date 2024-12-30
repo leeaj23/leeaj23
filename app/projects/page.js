@@ -201,7 +201,8 @@ export default function Home () {
     return (
         <CssBaseline enableColorScheme>
             <NavBar></NavBar>
-            <Container maxWidth="lg" component="main" sx={{ display: 'flex', flexDirection: 'column', my: 10, gap: 4}}>
+            <Container maxWidth="lg" component="main" sx={{ display: 'flex', flexDirection: 'column', my: 10, gap: 4, justifyContent: 'center' }}>
+                <Typography variant='h2' sx={{color: 'black', textAlign: 'center', mt: 6}}>Projects</Typography>
                 <Grid2 container spacing={8} columns={12} sx={{ my: 4 }}>
                     {projectData.map((project, index) => (
                         <Grid2 key={index} size={{ xs: 12, sm: 6, }}>
