@@ -1,3 +1,5 @@
+'use client'
+
 import styles from "./output.css";
 import { Avatar, Box, Card, CardMedia, Container, CssBaseline, Typography } from "@mui/material";
 import NavBar from './components/NavBar';

@@ -1,3 +1,5 @@
+'use client'
+
 import NavBar from '../components/NavBar';
 import {CssBaseline} from "@mui/material";
 
