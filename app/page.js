@@ -18,7 +18,7 @@ export default function Home() {
             <Typography>Collaboration is at the heart of my work. I’ve loved teaming up with peers to tackle complex technical challenges, whether in projects or at hackathons. These experiences taught me how to break down big ideas into actionable steps and deliver practical, impactful solutions. Looking ahead, I’m excited to bring my analytical mindset, adaptability, and technical skills into software engineering. Whether it’s creating efficient algorithms, debugging tricky code, or building intuitive user experiences, I’m eager to contribute and learn.</Typography>
             <Typography>TLDR; I’m someone who loves solving problems, sharing ideas, and turning curiosity into action. Feel free to reach out if you’d like to connect—I’d love to chat!</Typography>
           </Box>
-          <Avatar alt='Amy Lee' src='../headshot.png' variant='square' sx={{width: 400, height: 400, borderRadius: 5}}/>
+          <Avatar alt='Amy Lee' src='../headshot.png' variant='square' sx={{maxWidth: '50%', maxHeight: 'same-as-width', width: 400, height: 400, borderRadius: 5}}/>
         </Container>
       </Container>
     </CssBaseline>
