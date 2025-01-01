@@ -2,7 +2,7 @@
 
 import { Avatar, Box, Button, Container, CssBaseline, Typography } from "@mui/material";
 import NavBar from './components/NavBar';
-import { Email, LinkedIn } from "@mui/icons-material";
+import { Email, GitHub, LinkedIn } from "@mui/icons-material";
 
 export default function Home() {
   return (
@@ -28,6 +28,9 @@ export default function Home() {
           </Button>
           <Button href="https://www.linkedin.com/in/amy-lee-192129289/">
             <LinkedIn sx={{fontSize: 50}}></LinkedIn>
+          </Button>
+          <Button href="https://github.com/leeaj23">
+            <GitHub sx={{fontSize: 50}}></GitHub>
           </Button>
         </Container>
       </Container>

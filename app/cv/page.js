@@ -182,7 +182,8 @@ export default function Home () {
                                 <Typography variant='h6' sx={{fontWeight: 400}}>Links</Typography>                         
                             </Grid2>
                             <Grid2 size={8}>
-                                <Typography variant='subtitle1' component='a' href='https://www.linkedin.com/in/amy-lee-192129289/' target="_blank" sx={{textDecoration: 'underline'}}>LinkedIn</Typography>                           
+                                <Typography variant='subtitle1' component='a' href='https://www.linkedin.com/in/amy-lee-192129289/' target="_blank" sx={{textDecoration: 'underline'}}>LinkedIn</Typography>  
+                                <Typography variant='subtitle1' component='a' href='https://github.com/leeaj23' target="_blank" sx={{ml: 5, textDecoration: 'underline'}}>GitHub</Typography>                         
                             </Grid2>
                             <Grid2 size={2} sx={{ml: 3}}>
                                 <Typography variant='h6' sx={{fontWeight: 400}}>Summary</Typography>                         
