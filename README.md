@@ -8,4 +8,4 @@ Hey, I'm Amy Lee!
   <li>Interested in: coding (lol), data management, hackathons, crocheting, eating, reading, and learning new things!</li>
 </ul>
 
-Reach out to me over <a href=mailto'amy.jeeyoon.lee@gmail.com'>email</a> >~< 
+Reach out to me over <a href='mailtoamy.jeeyoon.lee@gmail.com'>email</a> >~< 
