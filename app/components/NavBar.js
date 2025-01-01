@@ -39,9 +39,6 @@ export default function NavBar() {
                             <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }} href='/cv'>
                                 CV
                             </Button>
-                            <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }} href='/contact'>
-                                Contact
-                            </Button>
                             </Box>
                     </Box>
                     <Box sx={{ display: { xs: 'flex', md: 'none' }, gap: 1 }}>
@@ -72,7 +69,6 @@ export default function NavBar() {
                             <MenuItem component={Link} href='/'>About</MenuItem>
                             <MenuItem component={Link} href='/projects'>Projects</MenuItem>
                             <MenuItem component={Link} href='/cv'>CV</MenuItem>
-                            <MenuItem component={Link} href='/contact'>Contact</MenuItem>
                         </Box>
                         </Drawer>
                     </Box>

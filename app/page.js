@@ -1,7 +1,8 @@
 'use client'
 
-import { Avatar, Box, Container, CssBaseline, Typography } from "@mui/material";
+import { Avatar, Box, Button, Container, CssBaseline, Typography } from "@mui/material";
 import NavBar from './components/NavBar';
+import { Email, LinkedIn } from "@mui/icons-material";
 
 export default function Home() {
   return (
@@ -20,6 +21,14 @@ export default function Home() {
             <Typography>TLDR; I’m someone who loves solving problems, sharing ideas, and turning curiosity into action. Feel free to reach out if you’d like to connect—I’d love to chat!</Typography>
           </Box>
           <Avatar alt='Amy Lee' src='../headshot.png' variant='square' sx={{maxWidth: '50%', maxHeight: 'same-as-width', width: 400, height: 400, borderRadius: 5}}/>
+        </Container>
+        <Container maxWidth='lg' component='main' sx={{alignContent:'center', textAlign: 'center'}}>
+          <Button href="mailTo:amy.jeeyoon.lee@gmail.com">
+            <Email sx={{fontSize: 50}}></Email>
+          </Button>
+          <Button href="https://www.linkedin.com/in/amy-lee-192129289/">
+            <LinkedIn sx={{fontSize: 50}}></LinkedIn>
+          </Button>
         </Container>
       </Container>
     </CssBaseline>
