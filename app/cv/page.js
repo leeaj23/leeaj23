@@ -232,7 +232,7 @@ export default function Home () {
                             <Grid2 size={9} sx={{mt: 2, ml: 3}}>
                                 <Typography variant='subtitle1'><b>Instructional Assistant</b>, University of Washington</Typography>
                             </Grid2>
-                            <Grid2 size={2.5}>
+                            <Grid2 size={2.5} sx={{mt: 3}}>
                                 <Typography variant='subtitle1'>Jun 2024 - Aug 2024</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
@@ -244,7 +244,7 @@ export default function Home () {
                             <Grid2 size={9} sx={{mt: 2, ml: 3}}>
                                 <Typography variant='subtitle1'><b>Manager</b>, Over the Rainbow Tea Bar</Typography>
                             </Grid2>
-                            <Grid2 size={2.5}>
+                            <Grid2 size={2.5} sx={{mt: 3}}>
                                 <Typography variant='subtitle1'>Oct 2021 - Oct 2024</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
@@ -260,9 +260,23 @@ export default function Home () {
                         <Typography variant='h4'>Volunteer</Typography>
                         <Grid2 container rowSpacing={0} columnSpacing={{ xs: 1, sm: 2, md: 3 }} sx={{mt: 2, mb: 2}}>
                             <Grid2 size={9} sx={{ml: 3}}>
-                                <Typography variant='subtitle1'><b>Java Instructor</b>, Mission InspirEd</Typography>
+                                <Typography variant='subtitle1'><b>Website Design Instructor</b>, IssyHacks</Typography>
                             </Grid2>
                             <Grid2 size={2.5}>
+                                <Typography variant='subtitle1'>Jun 2024</Typography>
+                            </Grid2>
+                            <Grid2 size={8.5} sx={{ml: 8}}>
+                                <ul style={{ml: 3}}>
+                                    <li>Taught fundamentals in website design, HTML, and CSS to students in the Issaquah School District.</li>
+                                    <li>Assisted in the development of the first high-school level hackathon in the district.</li>
+                                    <li>Curated curriculum to introduce the topics to a large audience of varying skill level.</li>
+                                    <li>Collaborated with other mentors to aid students in the development of their projects.</li>
+                                </ul>
+                            </Grid2>
+                            <Grid2 size={9} sx={{mt: 3, ml: 3}}>
+                                <Typography variant='subtitle1'><b>Java Instructor</b>, Mission InspirEd</Typography>
+                            </Grid2>
+                            <Grid2 size={2.5} sx={{mt: 3}}>
                                 <Typography variant='subtitle1'>Jul 2021 - Aug 2021</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
@@ -276,7 +290,7 @@ export default function Home () {
                             <Grid2 size={9} sx={{mt: 2, ml: 3}}>
                                 <Typography variant='subtitle1'><b>English Tutor</b>, Asian Passion Program</Typography>
                             </Grid2>
-                            <Grid2 size={2.5}>
+                            <Grid2 size={2.5} sx={{mt: 3}}>
                                 <Typography variant='subtitle1'>Apr 2021 - Jul 2021</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
@@ -289,7 +303,7 @@ export default function Home () {
                             <Grid2 size={9} sx={{mt: 2, ml: 3}}>
                                 <Typography variant='subtitle1'><b>STEM Tutor</b>, 425 Tutoring</Typography>
                             </Grid2>
-                            <Grid2 size={2.5}>
+                            <Grid2 size={2.5} sx={{mt: 3}}>
                                 <Typography variant='subtitle1'>Mar 2021 - Jun 2021</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
