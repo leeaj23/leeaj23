@@ -202,7 +202,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>University of Washington</b>, BS in Computer Science</Typography>
                             </Grid2>
                             <Grid2 size={2.5}>
-                                <Typography variant='subtitle1'>Expected Jun 2026</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>Expected Jun 2026</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>
@@ -221,7 +221,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>Student Technology Loan Program Assistant</b>, University of Washington</Typography>
                             </Grid2>
                             <Grid2 size={2.5}>
-                                <Typography variant='subtitle1'>May 2024 - Present</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>May 2024 - Present</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>
@@ -233,7 +233,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>Instructional Assistant</b>, University of Washington</Typography>
                             </Grid2>
                             <Grid2 size={2.5} sx={{mt: 3}}>
-                                <Typography variant='subtitle1'>Jun 2024 - Aug 2024</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>Jun 2024 - Aug 2024</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>
@@ -263,7 +263,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>Website Design Instructor</b>, IssyHacks</Typography>
                             </Grid2>
                             <Grid2 size={2.5}>
-                                <Typography variant='subtitle1'>Jun 2024</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>Jun 2024</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>
@@ -277,7 +277,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>Java Instructor</b>, Mission InspirEd</Typography>
                             </Grid2>
                             <Grid2 size={2.5} sx={{mt: 3}}>
-                                <Typography variant='subtitle1'>Jul 2021 - Aug 2021</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>Jul 2021 - Aug 2021</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>
@@ -291,7 +291,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>English Tutor</b>, Asian Passion Program</Typography>
                             </Grid2>
                             <Grid2 size={2.5} sx={{mt: 3}}>
-                                <Typography variant='subtitle1'>Apr 2021 - Jul 2021</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>Apr 2021 - Jul 2021</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>
@@ -304,7 +304,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>STEM Tutor</b>, 425 Tutoring</Typography>
                             </Grid2>
                             <Grid2 size={2.5} sx={{mt: 3}}>
-                                <Typography variant='subtitle1'>Mar 2021 - Jun 2021</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>Mar 2021 - Jun 2021</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>
@@ -324,7 +324,7 @@ export default function Home () {
                                 <Typography variant='subtitle1'><b>Tech Operations Lead</b>, UW Korean Student Association</Typography>
                             </Grid2>
                             <Grid2 size={2.5}>
-                                <Typography variant='subtitle1'>Aug 2024 - Present</Typography>
+                                <Typography variant='subtitle1' sx={{textAlign: 'right'}}>Aug 2024 - Present</Typography>
                             </Grid2>
                             <Grid2 size={8.5} sx={{ml: 8}}>
                                 <ul style={{ml: 3}}>

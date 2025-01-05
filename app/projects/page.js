@@ -58,7 +58,7 @@ const projectData = [
         title: "Flight Tracker Application",
         type: "CSE 344 Capstone Project - private github",
         blurb: "Designed and implemented a database system to manage user data and streamline flight scheduling via a command-line interface. Built with Java and SQL, the system is hosted on Microsoft Azure. Integrated encryption, hashing, salting, and identity management to secure sensitive data, ensuring efficient and reliable query processing without compromising performance.",
-        dates: "December 2024",
+        dates: "Dec 2024",
         links: [
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/flightapp"}
         ],
@@ -69,7 +69,7 @@ const projectData = [
         title: "Personal Website",
         type: "Personal Project",
         blurb: "Developed a personal website to highlight projects, experiences, and growth as a software engineer. Acts as a dynamic portfolio to document progress and showcase achievements.",
-        dates: "November 2024 - Present",
+        dates: "Nov 2024 - Present",
         links: [
             {"avatar": "../../link.png", "name": "link", "link": "/"}, //FIX CHANGE THE LINK WHEN UR ACTUALLY DOING THE THING
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/portfolio"}
@@ -81,7 +81,7 @@ const projectData = [
         title: "Circles",
         type: "DubHacks 2024 Project",
         blurb: "Developed Circles, a dating platform celebrating DubHacks' 10th anniversary theme: \"How Far We've Come, How Far We'll Go.\" Circles connects users through shared childhood memories and experiences, such as schools attended or favorite movies. Leveraging AI, the platform suggests matches based on these unique ties and provides personalized prompts to encourage natural, meaningful interactions. Focused on building connections rooted in familiarity, Circles fosters relationships designed to grow over time.",
-        dates: "October 2024",
+        dates: "Oct 2024",
         links: [
             {"avatar": "../../link.png", "name": "link", "link": "https://youtu.be/6iMnwmW5kxI"},
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/dubhacks-circles"}
@@ -93,7 +93,7 @@ const projectData = [
         title: "GenOne",
         type: "HeadstarterAI 2024 Project",
         blurb: "Led a team of four developers during the HeadstarterAI Fellowship to create an application connecting students with job postings, alumni contacts, and career resources. Designed a landing page, curated a database of mentors, and established outreach with school alumni. Implemented advanced search, sorting, and filtering functionality to ensure seamless access to all resources.",
-        dates: "July 2024 - September 2024",
+        dates: "Jul 2024 - Sep 2024",
         links: [
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/fli-app"}
         ],
@@ -104,7 +104,7 @@ const projectData = [
         title: "Inventory Management System",
         type: "HeadstarterAI 2024 Project",
         blurb: "Developed an inventory management system for the HeadstarterAI 2024 Fellowship. The application allows users to track pantry items by adding, adjusting, and viewing quantities. Included search functionality to enable users to quickly locate and review their supplies.",
-        dates: "July 2024",
+        dates: "Jul 2024",
         links: [
             {"avatar": "../../link.png", "name": "link", "link": "/"}, //FIX CHANGE THE LINK WHEN UR ACTUALLY DOING THE THING
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/inventory_management"}
@@ -116,7 +116,7 @@ const projectData = [
         title: "uMessage",
         type: "CSE 332 Project - private github",
         blurb: "Designed a messaging platform for UW students with features like text auto-complete and word suggestions, implemented using custom-built AVL Trees, B-Trees, Heaps, Tries, and Dictionaries. Integrated a data-persistent database hosted on Google Firebase, enabling users to store and retrieve chat logs with bots and other users.",
-        dates: "April 2024",
+        dates: "Apr 2024",
         links: [
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/uMessage"}
         ],
@@ -127,7 +127,7 @@ const projectData = [
         title: "Flashcard Application",
         type: "CSE 331 Project - private github",
         blurb: "Developed a full-stack application for creating, viewing, practicing, and testing with flashcard decks. Implemented data persistence to maintain functionality across page reloads. Added features for tracking practice scores, reviewing past performance, and analyzing mistakes, ensuring accurate and intuitive performance insights.",
-        dates: "March 2024",
+        dates: "Mar 2024",
         links: [
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/flashcards"}
         ],
@@ -138,7 +138,7 @@ const projectData = [
         title: "Caf-Fiend",
         type: "DubHacks 2023 Project",
         blurb: "Created Caf-Fiend, a caffeine management application designed for precise tracking and monitoring of daily intake. The app offers personalized guidance to help users stay within recommended caffeine limits for a healthier lifestyle. Extended functionality includes logging and reviewing caffeine consumption trends over weeks, months, and years, providing valuable insights into long-term health patterns.",
-        dates: "October 2023",
+        dates: "Oct 2023",
         links: [
             {"avatar": "../../link.png", "name": "link", "link": "https://gordondhuang.github.io/Caf-Fiend/index.html"}, 
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/Caf-Fiend"}
@@ -150,7 +150,7 @@ const projectData = [
         title: "Huffman Tree",
         type: "CSE 143 Project - private github",
         blurb: "Implemented a Huffman Tree using priority queues and binary trees to enable efficient text file compression based on character frequency. Designed methods to encode text files into compressed binary formats and decode them back to their original state using Huffman coding principles.",
-        dates: "November 2023",
+        dates: "Nov 2023",
         links: [
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/cse143homeworks"}
         ],
@@ -161,7 +161,7 @@ const projectData = [
         title: "Tetris Clone",
         type: "Personal Project - private github",
         blurb: "Developed a Tetris clone in Unity, featuring the classic gameplay along with specialized levels and color schemes after reaching level 13. The game includes custom blocks, sounds, and instructions, providing a personalized and engaging experience for users.",
-        dates: "July 2022",
+        dates: "Jul 2022",
         links: [
             {"avatar": "../../github.png", "name": "github", "link": "https://github.com/leeaj23/tetris"} //FIX CHANGE THE LINK WHEN UR ACTUALLY DOING THE THING
         ],
@@ -219,9 +219,18 @@ export default function Home () {
                                 <Typography gutterBottom variant="h5" component="div" sx={{ml: 2, mt: 2}}>
                                     {project.title}
                                 </Typography>
-                                <Typography gutterBottom variant="subtitle1" component="div" sx={{ml: 2, mt: -1}}>
-                                    {project.type}
-                                </Typography>
+                                <Grid2 container rowSpacing={0} columnSpacing={{ xs: 1, sm: 2, md: 3 }} sx={{mt: 2, mb: 2}}>
+                                    <Grid2 size={7.5}>
+                                        <Typography gutterBottom variant="subtitle1" component="div" sx={{ml: 2, mt: -1}}>
+                                            {project.type}
+                                        </Typography>                      
+                                    </Grid2>
+                                    <Grid2 size={4}>
+                                        <Typography gutterBottom variant="subtitle2" component="div" sx={{mt: -1, textAlign: 'right'}}>
+                                            {project.dates}
+                                        </Typography>                          
+                                    </Grid2>
+                                </Grid2>
                                 <Box>
                                     <StyledCardContent sx={{mt: -1}}>
                                         <StyledTypography variant='body2' gutterBottom>
