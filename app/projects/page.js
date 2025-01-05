@@ -233,7 +233,7 @@ export default function Home () {
                                 </Grid2>
                                 <Box>
                                     <StyledCardContent sx={{mt: -1}}>
-                                        <StyledTypography variant='body2' gutterBottom>
+                                        <StyledTypography variant='body2' gutterBottom sx={{mt: -2}}>
                                             {project.blurb}
                                         </StyledTypography>
                                     </StyledCardContent>
