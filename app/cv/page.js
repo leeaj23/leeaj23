@@ -143,7 +143,7 @@ export default function Home () {
                                 <Typography variant='h2'>CV</Typography>
                             </Grid2>
                             <Grid2>
-                            <Button href='../AmyLee.pdf' target='_blank' download>
+                            <Button href='../LeeAmy.pdf' target='_blank' download>
                                 <DownloadForOffline style={{fontSize: 50}}></DownloadForOffline>
                             </Button>
                             </Grid2>
