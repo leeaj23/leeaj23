@@ -31,6 +31,10 @@ const StyledCardContent = styled(CardContent)({
     '&:last-child': {
         paddingBottom: 16,
     },
+    scrollbarColor: "#6b6b6b #2b2b2b",
+    "&::-webkit-scrollbar, & *::-webkit-scrollbar": {
+        backgroundColor: "#2b2b2b",
+    },
 });
 
 const StyledTypography = styled(Typography)({
