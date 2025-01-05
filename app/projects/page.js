@@ -52,7 +52,7 @@ const projectData = [
     {
         img: "../flightapp.png",
         title: "Flight Tracker Application",
-        type: "CSE 344 Capstone Project",
+        type: "CSE 344 Capstone Project - private github",
         blurb: "Designed and implemented a database system to manage user data and streamline flight scheduling via a command-line interface. Built with Java and SQL, the system is hosted on Microsoft Azure. Integrated encryption, hashing, salting, and identity management to secure sensitive data, ensuring efficient and reliable query processing without compromising performance.",
         dates: "December 2024",
         links: [
@@ -110,7 +110,7 @@ const projectData = [
     {
         img: "../umessage.png",
         title: "uMessage",
-        type: "CSE 332 Project",
+        type: "CSE 332 Project - private github",
         blurb: "Designed a messaging platform for UW students with features like text auto-complete and word suggestions, implemented using custom-built AVL Trees, B-Trees, Heaps, Tries, and Dictionaries. Integrated a data-persistent database hosted on Google Firebase, enabling users to store and retrieve chat logs with bots and other users.",
         dates: "April 2024",
         links: [
@@ -121,7 +121,7 @@ const projectData = [
     {
         img: "../flashcard.png",
         title: "Flashcard Application",
-        type: "CSE 331 Project",
+        type: "CSE 331 Project - private github",
         blurb: "Developed a full-stack application for creating, viewing, practicing, and testing with flashcard decks. Implemented data persistence to maintain functionality across page reloads. Added features for tracking practice scores, reviewing past performance, and analyzing mistakes, ensuring accurate and intuitive performance insights.",
         dates: "March 2024",
         links: [
@@ -144,7 +144,7 @@ const projectData = [
     {
         img: "../huffman.png",
         title: "Huffman Tree",
-        type: "CSE 143 Project",
+        type: "CSE 143 Project - private github",
         blurb: "Implemented a Huffman Tree using priority queues and binary trees to enable efficient text file compression based on character frequency. Designed methods to encode text files into compressed binary formats and decode them back to their original state using Huffman coding principles.",
         dates: "November 2023",
         links: [
@@ -155,7 +155,7 @@ const projectData = [
     {
         img: "../tetris.png",
         title: "Tetris Clone",
-        type: "Personal Project",
+        type: "Personal Project - private github",
         blurb: "Developed a Tetris clone in Unity, featuring the classic gameplay along with specialized levels and color schemes after reaching level 13. The game includes custom blocks, sounds, and instructions, providing a personalized and engaging experience for users.",
         dates: "July 2022",
         links: [
@@ -212,11 +212,14 @@ export default function Home () {
                                     alt={project.title}
                                     image={project.img}
                                     sx={{maxHeight: 200}}/>
-                                <Typography gutterBottom variant="h6" component="div" sx={{ml: 2, my: 2}}>
+                                <Typography gutterBottom variant="h5" component="div" sx={{ml: 2, mt: 2}}>
                                     {project.title}
                                 </Typography>
+                                <Typography gutterBottom variant="subtitle1" component="div" sx={{ml: 2, mt: -1}}>
+                                    {project.type}
+                                </Typography>
                                 <Box>
-                                    <StyledCardContent>
+                                    <StyledCardContent sx={{mt: -1}}>
                                         <StyledTypography variant='body2' gutterBottom>
                                             {project.blurb}
                                         </StyledTypography>
